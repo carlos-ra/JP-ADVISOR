@@ -1,0 +1,15 @@
+.quienesSomosSection{
+	display: grid;	
+	margin-top: 120px;	
+	grid-template-columns: 40px auto auto;
+	background-image: url(../img/quienesSomos.jpg);
+	background-size: 100% 100%;
+	height: 550px;
+}
+.quienesSomosText{
+	width: 60%;
+	grid-column: 2/3;
+	margin-top: 120px;
+	color: #ffffff;		
+	font-size: 20px;
+}

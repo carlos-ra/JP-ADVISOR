@@ -1,0 +1,73 @@
+.servicesSection{
+	margin-top: 120px;
+}
+.servicioTitulo{
+	font-size: 40px;
+	grid-column: 1/4;
+	-webkit-text-stroke: 3px #022c5c;
+	font-weight: 700;
+	background-size: 100% auto;
+	background-position: center;
+	height: 200px;
+	color: #ffffff;
+	font-size: 85px;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+.servicioSubtitulo{
+	font-size: 30px;
+	text-align: center;
+	font-weight: 700;
+	
+}
+.servicioText{
+	display: grid;
+	align-items: center;
+	margin-top: 25px;
+	font-size: 15px;
+	text-align: center;	
+}
+.serviceCard{
+	background: #335e89;	
+	margin: 5%;
+	padding: 2%;
+	color: #ffffff;
+	border-radius: 10px;	
+}
+.serviceCard:hover{
+	-webkit-box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.75);
+}
+.cardIcons{
+	display: grid;
+	justify-content: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.servicesGrid{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(6,200px auto);
+}
+.aseguramientoCard{
+	grid-column: 1/4;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+.outsourcingSect{
+	display: grid;
+	grid-column: 1/4;
+	grid-template-columns: 1fr 1fr;
+}
+.asesoriaTributaria{
+	background-image: url(../img/asesoriaFinanciera.jpg);	
+}
+.aseguramiento{
+	background-image: url(../img/aseguramiento.jpg);
+}
+.outsourcingBg{
+	background-image: url(../img/agreement.jpg);
+	background-size: 100% 270%;
+}
