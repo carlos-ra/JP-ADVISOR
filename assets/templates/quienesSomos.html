@@ -12,10 +12,35 @@
 			<a class="home" href="../../index.html"><b>JP</b> Advisor & Consultants S.A.S</a>
 		</div>
 		<div class="navbarLink">
-			<h2><a class="navbarSection" href="../templates/quienesSomos.html">Quiénes somos</a></h2>
+			<h2><a class="navbarSection" href="quienesSomos.html">Quiénes somos</a></h2>
 		</div>
 		<div class="navbarLinkServices">
-			<h2><a class="navbarSectionServices" href="../templates/servicios.html">Servicios</a></h2>
+			<div>Servicios:</div>
+			<div class="navbarLinkServicesCont">
+				<select class="navbarSectionServices" name="servicios" onChange="window.location.href=this.value">
+					<option value="servicios.html">
+						Seleccione
+					</option>
+					<option value="servicios.html#asesoriaTributariaSection">
+						Asesoria Tributaria
+					</option>
+					<option value="servicios.html#aseguramientoSection">
+						<a href="">Aseguramiento</a>
+					</option>
+					<option value="servicios.html#outsourcingContableSection">
+						<a href="">Outsourcing Contable</a>
+					</option>
+					<option value="servicios.html#outsourcingNominaSection">
+						<a href="">Outsourcing Nómina</a>
+					</option>
+					<option value="servicios.html#normasNIIFSection">
+						<a href="">Normas NIIF</a>
+					</option>
+					<option value="servicios.html#consultoriaFinancieraSection">
+						<a href="">Consultoría Financiera</a>
+					</option>
+				</select>
+			</div>						
 			<!--<div class="servicesOptions">
 				<a href="">Asesoria Tributaria</a>
 				<a href="">Aseguramiento</a>

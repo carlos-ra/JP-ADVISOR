@@ -8,7 +8,7 @@
 	font-weight: 700;
 	background-size: 100% auto;
 	background-position: center;
-	height: 200px;
+	height: 100px;
 	color: #ffffff;
 	font-size: 85px;
 	display: grid;
@@ -30,7 +30,8 @@
 }
 .serviceCard{
 	background: #335e89;	
-	margin: 5%;
+	margin: 15px;
+	margin-bottom: 5%;
 	padding: 2%;
 	color: #ffffff;
 	border-radius: 10px;	
@@ -48,8 +49,7 @@
 }
 .servicesGrid{
 	display: grid;
-	grid-template-columns: repeat(3,1fr);
-	grid-template-rows: repeat(6,200px auto);
+	grid-template-columns: repeat(3,1fr);	
 }
 .aseguramientoCard{
 	grid-column: 1/4;
@@ -69,5 +69,5 @@
 }
 .outsourcingBg{
 	background-image: url(../img/agreement.jpg);
-	background-size: 100% 270%;
+	background-size: 100% 370%;
 }
